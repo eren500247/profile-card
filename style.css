@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #1a1a1a;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .card{
+	background-color: #242323;
+	padding: 35px;
+	border-radius: 5px;
+}
+.container .card .profile-img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+.container .card .profile-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 50%;
+}
+.container .card .content {
+	text-align: center;
+}
+.container .card .content h1{
+	font-size: 25px;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	color: #fff;
+}
+.container .card .content h5{
+	font-size: 15px;
+	color : #1c9c33;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.container .card .content p{
+	margin-bottom: 20px;
+	color: #fff;
+}
+.container .card .social{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+.container .card .social button{
+	width: 250px;
+	height: 35px;
+	border-radius: 8px;
+	background-color: #807c7c;
+	border: none;
+}
